@@ -1,4 +1,8 @@
 Appblog::Application.routes.draw do
+  get "sites/domov"
+
+  get "sites/info"
+
   resources :posts
 
 
